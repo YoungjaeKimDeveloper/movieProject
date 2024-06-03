@@ -1,0 +1,30 @@
+.header-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.header-main-title {
+  color: yellow;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+.header-main-links {
+  display: flex;
+  justify-content: center;
+}
+.header-main-link {
+  font-size: 20px;
+  margin-right: 10px;
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-main-icon {
+  width: 20px;
+  margin-left: 2px;
+}
